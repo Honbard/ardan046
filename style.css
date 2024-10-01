@@ -4,32 +4,32 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #121212; /* Dark background */
+  background-color: #121212; 
   margin: 0;
-  color: #fff; /* White text for dark mode */
+  color: #fff; 
 }
 
 .countdown-container {
   text-align: center;
-  background-color: #1f1f1f; /* Dark container */
+  background-color: #1f1f1f; 
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-  color: #f0f8ff; /* Light title */
+  color: #f0f8ff; 
   margin-bottom: 20px;
 }
 
 #countdown {
   display: flex;
-  justify-content: space-between; /* Add spacing between countdown blocks */
-  gap: 20px; /* Additional space between blocks */
+  justify-content: space-between; 
+  gap: 20px; 
 }
 
 #countdown div {
-  background-color: #333; /* Darker background for blocks */
+  background-color: #333; 
   padding: 25px;
   border-radius: 10px;
   width: 100px;
@@ -37,7 +37,7 @@ h1 {
 
 #countdown div span {
   font-size: 2.5rem;
-  color: #fff; /* White text */
+  color: #fff; 
 }
 
 #countdown div p {
